@@ -30,11 +30,11 @@ This project requires a specific version of Node.js to run successfully. Ensure 
   npm ci
   ```
 
-I recommend using npm ci (continuous integration) over npm install for the following reasons:
+I recommend using `npm ci` (continuous integration) over `npm install` for the following reasons:
 
-  - Faster and Reliable: npm ci is designed for faster and more reliable installations, especially in a production or continuous integration environment. It skips unnecessary steps like dependency resolution and uses the versions specified in the lockfile.
+  - Faster and Reliable: `npm ci` is designed for faster and more reliable installations, especially in a production or continuous integration environment. It skips unnecessary steps like dependency resolution and uses the versions specified in the lockfile.
 
-  - Lockfile Consistency: A big downside of npm install is its unexpected behavior that it may mutate the package-lock.json, whereas npm ci strictly uses the versions specified in the lockfile and produces an error if there are inconsistencies.
+  - Lockfile Consistency: A big downside of `npm install` is its unexpected behavior that it may mutate the package-lock.json, whereas `npm ci` strictly uses the versions specified in the lockfile and produces an error if there are inconsistencies.
 
 ## Usage
 - Start the project using the following command:
